@@ -1,1 +1,26 @@
-
+AS4224-52P:
+  platform:
+    sonic: True
+    onie: True
+    simba: False
+    anos: False
+  baud_rate: 115200
+  port_count: 52
+  speed: 10G
+  cpu_type: PPC # x86, PPC
+  uboot:
+    into_prompt: Type password to STOP autoboot
+    password: '@wa23'
+AS4224-52T:
+  platform:
+    sonic: True
+    onie: True
+    simba: False
+    anos: False
+  baud_rate: 115200
+  port_count: 52
+  speed: 10G
+  cpu_type: PPC # x86, PPC
+  uboot:
+    into_prompt: Type password to STOP autoboot
+    password: '@wa23'
