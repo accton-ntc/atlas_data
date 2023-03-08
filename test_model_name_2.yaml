@@ -1,39 +1,536 @@
-AS4224-52P:
-  platform:
-    sonic: True
-    onie: True
-    simba: False
-    anos: False
-  baud_rate: 115200
-  port_count: 52
-  speed: 10G
-  cpu_type: PPC # x86, PPC
-  uboot:
-    into_prompt: Type password to STOP autoboot
-    password: '@wa23'
-AS4224-52T:
-  platform:
-    sonic: True
-    onie: True
-    simba: False
-    anos: False
-  baud_rate: 115200
-  port_count: 52
-  speed: 10G
-  cpu_type: PPC # x86, PPC
-  uboot:
-    into_prompt: Type password to STOP autoboot
-    password: '@wa23'
-AS4564-26P:
-  platform:
-    sonic: True
-    onie: True
-    simba: False
-    anos: False
-  baud_rate: 115200
-  port_count: 26
-  speed: 10G
-  cpu_type: PPC # x86, PPC
-  uboot:
-    into_prompt: none
-    password: none
+model: # Please sort by model name when adding model.
+    ASCvOLT16:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 16
+        speed: 10G
+        cpu_type: x86 # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    AS4224-52P:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 52
+        speed: 10G
+        cpu_type: PPC # x86, PPC
+        uboot:
+            into_prompt: Type password to STOP autoboot
+            password: '@wa23'
+    AS4224-52T:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 52
+        speed: 10G
+        cpu_type: PPC # x86, PPC
+        uboot:
+            into_prompt: Type password to STOP autoboot
+            password: '@wa23'
+    AS4564-26P:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 26
+        speed: 10G
+        cpu_type: PPC # x86, PPC
+        uboot:
+            into_prompt: Type password to STOP autoboot
+            password: '@wa23'
+    AS4630-54NPE:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 54
+        speed: 10G
+        cpu_type: x86 # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    AS4630-54PE:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 54
+        speed: 10G
+        cpu_type: x86 # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    AS4630-54TE:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: True
+        baud_rate: 115200
+        port_count: 54
+        speed: 1G
+        cpu_type: x86 # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    AS5812-54X:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 54
+        speed: 10G
+        cpu_type: x86 # x86, PPC
+        send_expect_delay_time: 0.3
+        uboot:
+            into_prompt: null
+            password: null
+    AS5835-54T:
+        platform:
+            sonic: True
+            onie: True
+            simba: True
+            anos: False
+        baud_rate: 115200
+        port_count: 54
+        speed: 10G
+        cpu_type: x86 # x86, PPC
+        send_expec_delay_time: 0.3
+        uboot:
+            into_prompt: null
+            password: null
+    AS5835-54X:
+        platform:
+            sonic: True
+            onie: True
+            simba: True
+            anos: True
+        baud_rate: 115200
+        port_count: 54
+        speed: 10G
+        cpu_type: x86 # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    AS5916-54XKS:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 54
+        speed: 10G
+        cpu_type: x86 # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    AS5916-54XL:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 54
+        speed: 10G
+        cpu_type: x86 # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    AS7326-56X:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: True
+        baud_rate: 115200
+        port_count: 56
+        speed: 25G
+        cpu_type: x86 # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    AS7712-32X:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 32
+        speed: 100G
+        cpu_type: x86 # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    AS7726-32X:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 32
+        speed: 100G
+        cpu_type: x86 # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    AS7816-64X:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 32
+        speed: 100G
+        cpu_type: x86 # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    AS8000:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 9600
+        port_count: 32
+        speed: 100G
+        cpu_type: x86 # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    AS8060-32X:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 32
+        speed: 400G
+        cpu_type: APL # x86, PPC
+        uboot:
+            into_prompt: Type 123<ENTER> to STOP autoboot
+            password: '123'
+    AS8064-32X:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 32
+        speed: 400G
+        cpu_type: APL # x86, PPC
+        uboot:
+            into_prompt: Type 123<ENTER> to STOP autoboot
+            password: '123'
+    AS8460-32X:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 32
+        speed: 400G
+        cpu_type: APL # x86, PPC
+        uboot:
+            into_prompt: Type 123<ENTER> to STOP autoboot
+            password: '123'
+    AS9516-32D:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 9600
+        port_count: 32
+        speed: 400G
+        cpu_type: x86 # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    AS9716-32D:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 32
+        speed: 400G
+        cpu_type: x86 # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    AS9726-32D:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 32
+        speed: 400G
+        cpu_type: x86 # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    AS9736-64D:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 64
+        speed: 400G
+        cpu_type: x86 # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    AZ3380-52X:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 52
+        speed: 10G
+        cpu_type: APL # x86, PPC
+        uboot:
+            into_prompt: Type 123<ENTER> to STOP autoboot
+            password: '123'
+    AZ4444-52X:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 52
+        speed: 400G
+        cpu_type: APL # x86, PPC
+        uboot:
+            into_prompt: Type 123<ENTER> to STOP autoboot
+            password: '123'
+    CA120-32X:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 32
+        speed: 10G
+        cpu_type: x86 # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    ECS2100-28PPv2:
+        platform:
+            sonic: False
+            onie: False
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 28
+        speed: 1G
+        cpu_type: null # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    ECS2100-52T:
+        platform:
+            sonic: False
+            onie: False
+            simba: True
+            anos: False
+        baud_rate: 115200
+        port_count: 52
+        speed: 1G
+        cpu_type: null # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    ECS4100-12T:
+        platform:
+            sonic: False
+            onie: False
+            simba: True
+            anos: False
+        baud_rate: 115200
+        port_count: 12
+        speed: 1G
+        cpu_type: null # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    ECS4100-12PH:
+        platform:
+            sonic: False
+            onie: False
+            simba: True
+            anos: False
+        baud_rate: 115200
+        port_count: 12
+        speed: 1G
+        cpu_type: null # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    ECS4100-28T:
+        platform:
+            sonic: False
+            onie: False
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 28
+        speed: 1G
+        cpu_type: null # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    ECS4110-28T:
+        platform:
+            sonic: False
+            onie: False
+            simba: True
+            anos: False
+        baud_rate: 115200
+        port_count: 28
+        speed: 1G
+        cpu_type: null # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    ECS4125-10P:
+        platform:
+            sonic: False
+            onie: False
+            simba: True
+            anos: False
+        baud_rate: 115200
+        port_count: 12
+        speed: 1G
+        cpu_type: null # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    ECS4130-12PD:
+        platform:
+            sonic: False
+            onie: False
+            simba: True
+            anos: False
+        baud_rate: 115200
+        port_count: 12
+        speed: 1G
+        cpu_type: null # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    ECS4130-28T:
+        platform:
+            sonic: False
+            onie: False
+            simba: True
+            anos: False
+        baud_rate: 115200
+        port_count: 12
+        speed: 1G
+        cpu_type: null # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    ECS4610-50T:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 50
+        speed: 1G
+        cpu_type: null # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    ECS5520-18T:
+        platform:
+            sonic: False
+            onie: False
+            simba: True
+            anos: False
+        baud_rate: 115200
+        port_count: 18
+        speed: 10G
+        cpu_type: null # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    ECS5520-18X:
+        platform:
+            sonic: False
+            onie: False
+            simba: True
+            anos: False
+        baud_rate: 115200
+        port_count: 18
+        speed: 10G
+        cpu_type: null # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    Wedge100BF-32X:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 32
+        speed: 400G
+        cpu_type: x86 # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    Wedge100BF-65X:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 9600
+        port_count: 65
+        speed: 400G
+        cpu_type: x86 # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
