@@ -529,7 +529,7 @@ model: # Please sort by model name when adding model.
         uboot:
             into_prompt: null
             password: null
-   Testdiff-32X:
+    Testdiff-32X:
         platform:
             sonic: True
             onie: True
