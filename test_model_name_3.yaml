@@ -529,16 +529,3 @@ model: # Please sort by model name when adding model.
         uboot:
             into_prompt: null
             password: null
-    Testdiff-32X:
-        platform:
-            sonic: True
-            onie: True
-            simba: True
-            anos: True
-        baud_rate: 115200
-        port_count: 32
-        speed: 100G
-        cpu_type: x86 # x86, PPC
-        uboot:
-            into_prompt: null
-            password: null
