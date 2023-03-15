@@ -542,3 +542,9 @@ model: # Please sort by model name when adding model.
         uboot:
             into_prompt: null
             password: null
+    ADD-one_more_comment:
+        platform:
+            sonic: False
+            onie: False
+            simba: False
+            anos: False
