@@ -1,160 +1,4 @@
 model: # Please sort by model name when adding model.
-    ECS2100-28PPv2:
-        platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
-        baud_rate: 115200
-        port_count: 28
-        speed: 1G
-        cpu_type: null # x86, PPC
-        uboot:
-            into_prompt: null
-            password: null
-    ECS2100-52T:
-        platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
-        baud_rate: 115200
-        port_count: 52
-        speed: 1G
-        cpu_type: null # x86, PPC
-        uboot:
-            into_prompt: null
-            password: null
-    ECS4100-12T:
-        platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
-        baud_rate: 115200
-        port_count: 12
-        speed: 1G
-        cpu_type: null # x86, PPC
-        uboot:
-            into_prompt: null
-            password: null
-    ECS4100-12PH:
-        platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
-        baud_rate: 115200
-        port_count: 12
-        speed: 1G
-        cpu_type: null # x86, PPC
-        uboot:
-            into_prompt: null
-            password: null
-    ECS4100-28T:
-        platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
-        baud_rate: 115200
-        port_count: 28
-        speed: 1G
-        cpu_type: null # x86, PPC
-        uboot:
-            into_prompt: null
-            password: null
-    ECS4110-28T:
-        platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
-        baud_rate: 115200
-        port_count: 28
-        speed: 1G
-        cpu_type: null # x86, PPC
-        uboot:
-            into_prompt: null
-            password: null
-    ECS4125-10P:
-        platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
-        baud_rate: 115200
-        port_count: 12
-        speed: 1G
-        cpu_type: null # x86, PPC
-        uboot:
-            into_prompt: null
-            password: null
-    ECS4130-12PD:
-        platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
-        baud_rate: 115200
-        port_count: 12
-        speed: 1G
-        cpu_type: null # x86, PPC
-        uboot:
-            into_prompt: null
-            password: null
-    ECS4130-28T:
-        platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
-        baud_rate: 115200
-        port_count: 12
-        speed: 1G
-        cpu_type: null # x86, PPC
-        uboot:
-            into_prompt: null
-            password: null
-    ECS4610-50T:
-        platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
-        baud_rate: 115200
-        port_count: 50
-        speed: 1G
-        cpu_type: null # x86, PPC
-        uboot:
-            into_prompt: null
-            password: null
-    ECS5520-18T:
-        platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
-        baud_rate: 115200
-        port_count: 18
-        speed: 10G
-        cpu_type: null # x86, PPC
-        uboot:
-            into_prompt: null
-            password: null
-    ECS5520-18X:
-        platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
-        baud_rate: 115200
-        port_count: 18
-        speed: 10G
-        cpu_type: null # x86, PPC
-        uboot:
-            into_prompt: null
-            password: null
     ASCvOLT16:
         platform:
             sonic: True
@@ -207,6 +51,19 @@ model: # Please sort by model name when adding model.
         uboot:
             into_prompt: Type password to STOP autoboot
             password: '@wa23'
+    AS4630-54NPE:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 54
+        speed: 10G
+        cpu_type: x86 # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
     AS4630-54PE:
         platform:
             sonic: True
@@ -225,23 +82,10 @@ model: # Please sort by model name when adding model.
             sonic: True
             onie: True
             simba: False
-            anos: False
+            anos: True
         baud_rate: 115200
         port_count: 54
         speed: 1G
-        cpu_type: x86 # x86, PPC
-        uboot:
-            into_prompt: null
-            password: null
-    AS4630-54NPE:
-        platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
-        baud_rate: 115200
-        port_count: 54
-        speed: 10G
         cpu_type: x86 # x86, PPC
         uboot:
             into_prompt: null
@@ -264,7 +108,7 @@ model: # Please sort by model name when adding model.
         platform:
             sonic: True
             onie: True
-            simba: False
+            simba: True
             anos: False
         baud_rate: 115200
         port_count: 54
@@ -278,8 +122,8 @@ model: # Please sort by model name when adding model.
         platform:
             sonic: True
             onie: True
-            simba: False
-            anos: False
+            simba: True
+            anos: True
         baud_rate: 115200
         port_count: 54
         speed: 10G
@@ -318,7 +162,7 @@ model: # Please sort by model name when adding model.
             sonic: True
             onie: True
             simba: False
-            anos: False
+            anos: True
         baud_rate: 115200
         port_count: 56
         speed: 25G
@@ -505,6 +349,162 @@ model: # Please sort by model name when adding model.
         port_count: 32
         speed: 10G
         cpu_type: x86 # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    ECS2100-28PPv2:
+        platform:
+            sonic: False
+            onie: False
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 28
+        speed: 1G
+        cpu_type: null # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    ECS2100-52T:
+        platform:
+            sonic: False
+            onie: False
+            simba: True
+            anos: False
+        baud_rate: 115200
+        port_count: 52
+        speed: 1G
+        cpu_type: null # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    ECS4100-12T:
+        platform:
+            sonic: False
+            onie: False
+            simba: True
+            anos: False
+        baud_rate: 115200
+        port_count: 12
+        speed: 1G
+        cpu_type: null # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    ECS4100-12PH:
+        platform:
+            sonic: False
+            onie: False
+            simba: True
+            anos: False
+        baud_rate: 115200
+        port_count: 12
+        speed: 1G
+        cpu_type: null # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    ECS4100-28T:
+        platform:
+            sonic: False
+            onie: False
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 28
+        speed: 1G
+        cpu_type: null # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    ECS4110-28T:
+        platform:
+            sonic: False
+            onie: False
+            simba: True
+            anos: False
+        baud_rate: 115200
+        port_count: 28
+        speed: 1G
+        cpu_type: null # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    ECS4125-10P:
+        platform:
+            sonic: False
+            onie: False
+            simba: True
+            anos: False
+        baud_rate: 115200
+        port_count: 12
+        speed: 1G
+        cpu_type: null # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    ECS4130-12PD:
+        platform:
+            sonic: False
+            onie: False
+            simba: True
+            anos: False
+        baud_rate: 115200
+        port_count: 12
+        speed: 1G
+        cpu_type: null # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    ECS4130-28T:
+        platform:
+            sonic: False
+            onie: False
+            simba: True
+            anos: False
+        baud_rate: 115200
+        port_count: 12
+        speed: 1G
+        cpu_type: null # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    ECS4610-50T:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 50
+        speed: 1G
+        cpu_type: null # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    ECS5520-18T:
+        platform:
+            sonic: False
+            onie: False
+            simba: True
+            anos: False
+        baud_rate: 115200
+        port_count: 18
+        speed: 10G
+        cpu_type: null # x86, PPC
+        uboot:
+            into_prompt: null
+            password: null
+    ECS5520-18X:
+        platform:
+            sonic: False
+            onie: False
+            simba: True
+            anos: False
+        baud_rate: 115200
+        port_count: 18
+        speed: 10G
+        cpu_type: null # x86, PPC
         uboot:
             into_prompt: null
             password: null
