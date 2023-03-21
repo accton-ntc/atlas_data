@@ -156,6 +156,11 @@ model: # Please sort by model name when adding model.
             into_prompt: null
             password: null
     ASCvOLT16:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
         baud_rate: 115200
         port_count: 16
         speed: 10G
