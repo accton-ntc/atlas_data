@@ -52,6 +52,7 @@ anos:
     - ANOS_Mirror_PortBased
     - ANOS_QinQ
     - ANOS_Statistics
+    - ANOS_LLDP
   T2:
     - ANOS_IPv4_StaticRoute
     - ANOS_QinQ
