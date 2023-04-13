@@ -339,6 +339,19 @@ model: # Please sort by model name when adding model.
         uboot:
             into_prompt: Type 123<ENTER> to STOP autoboot
             password: '123'
+    AZ8564-32X:
+        platform:
+            sonic: False
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 32
+        speed: 400G
+        cpu_type: APL # x86, PPC
+        uboot:
+            into_prompt: Type 123<ENTER> to STOP autoboot
+            password: '123'
     CA120-32X:
         platform:
             sonic: True
