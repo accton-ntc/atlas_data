@@ -48,11 +48,21 @@ anos:
     - ANOS_1QVLAN
     - ANOS_ACL
     - ANOS_AMTR
+    - ANOS_BGP
     - ANOS_IPv4_StaticRoute
-    - ANOS_Mirror_PortBased
-    - ANOS_QinQ
-    - ANOS_Statistics
     - ANOS_LLDP
+    - ANOS_Mirror_PortBased
+    - ANOS_Policy
+    - ANOS_QinQ
+    - ANOS_SelectiveQinQ
+    - ANOS_sFlow
+    - ANOS_SNMP
+    - ANOS_Statistics
   T2:
+    - ANOS_AMTR
+    - ANOS_BGP
     - ANOS_IPv4_StaticRoute
     - ANOS_QinQ
+    - ANOS_SelectiveQinQ
+  T3:
+    - ANOS_BGP
