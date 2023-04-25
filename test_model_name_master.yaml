@@ -101,9 +101,6 @@ model: # Please sort by model name when adding model.
         speed: 10G
         cpu_type: x86 # x86, PPC, APL
         send_expec_delay_time: 0.3
-        uboot:
-            into_prompt: null
-            password: null
     AS5835-54X:
         platform:
             sonic: True
@@ -114,9 +111,6 @@ model: # Please sort by model name when adding model.
         port_count: 54
         speed: 10G
         cpu_type: x86 # x86, PPC, APL
-        uboot:
-            into_prompt: null
-            password: null
     AS5916-54XKS:
         platform:
             sonic: True
