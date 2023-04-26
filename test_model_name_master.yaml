@@ -58,7 +58,6 @@ model: # Please sort by model name when adding model.
         port_count: 54
         speed: 10G
         cpu_type: x86 # x86, PPC, APL
-        
     AS4630-54PE:
         platform:
             sonic: True
