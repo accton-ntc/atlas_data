@@ -155,7 +155,7 @@ model: # Please sort by model name when adding model.
             sonic: True
             onie: True
             simba: False
-            anos: False
+            anos: True
         baud_rate: 115200
         port_count: 32
         speed: 100G
