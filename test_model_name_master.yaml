@@ -308,6 +308,26 @@ model: # Please sort by model name when adding model.
         port_count: 32
         speed: 10G
         cpu_type: x86 # x86, PPC, APL
+    DCS6300-48X6C:
+        platform:
+            sonic: False
+            onie: True
+            simba: False
+            anos: True
+        baud_rate: 115200
+        port_count: 54
+        speed: 10G
+        cpu_type: x86 # x86, PPC, APL
+    DCS6500-48Z8C:
+        platform:
+            sonic: False
+            onie: True
+            simba: False
+            anos: True
+        baud_rate: 115200
+        port_count: 56
+        speed: 25G
+        cpu_type: x86 # x86, PPC, APL
     ECS2100-28PPv2:
         platform:
             sonic: False
