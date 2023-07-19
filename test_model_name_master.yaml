@@ -468,13 +468,3 @@ model: # Please sort by model name when adding model.
         port_count: 65
         speed: 400G
         cpu_type: x86 # x86, PPC, APL
-    Testwedge100BF-0719X:
-        platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
-        baud_rate: 9600
-        port_count: 65
-        speed: 100G
-        cpu_type: x86 # x86, PPC, APL
