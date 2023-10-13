@@ -49,6 +49,7 @@ anos:
     - ANOS_ACL
     - ANOS_AMTR
     - ANOS_BGP
+    - ANOS_IGMP_Snooping
     - ANOS_IPv4_StaticRoute
     - ANOS_LLDP
     - ANOS_Mirror_PortBased
