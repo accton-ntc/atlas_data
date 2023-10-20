@@ -478,3 +478,13 @@ model: # Please sort by model name when adding model.
         port_count: 65
         speed: 400G
         cpu_type: x86 # x86, PPC, APL
+    TEST name_master-18X:
+        platform:
+            sonic: False
+            onie: True
+            simba: False
+            anos: True
+        baud_rate: 115200
+        port_count: 18
+        speed: 10G
+        cpu_type: null # x86, PPC, APL
