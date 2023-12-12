@@ -468,15 +468,25 @@ model: # Please sort by model name when adding model.
         port_count: 18
         speed: 10G
         cpu_type: null # x86, PPC, APL
+    Wedge100BF-32QS:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 9600
+        port_count: 32
+        speed: 100G
+        cpu_type: x86 # x86, PPC, APL
     Wedge100BF-32X:
         platform:
             sonic: True
             onie: True
             simba: False
             anos: False
-        baud_rate: 115200
+        baud_rate: 9600
         port_count: 32
-        speed: 400G
+        speed: 100G
         cpu_type: x86 # x86, PPC, APL
     Wedge100BF-65X:
         platform:
@@ -486,5 +496,5 @@ model: # Please sort by model name when adding model.
             anos: False
         baud_rate: 9600
         port_count: 65
-        speed: 400G
+        speed: 100G
         cpu_type: x86 # x86, PPC, APL
