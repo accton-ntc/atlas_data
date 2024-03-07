@@ -48,6 +48,16 @@ model: # Please sort by model name when adding model.
         uboot:
             into_prompt: Type password to STOP autoboot
             password: '@wa23'
+    AS4610-54T:
+        platform:
+            sonic: False
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 54
+        speed: 1G
+        cpu_type: x86 # x86, PPC, APL
     AS4625-54P:
         platform:
             sonic: True
