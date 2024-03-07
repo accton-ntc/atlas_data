@@ -57,7 +57,7 @@ model: # Please sort by model name when adding model.
         baud_rate: 115200
         port_count: 54
         speed: 1G
-        cpu_type: x86 # x86, PPC, APL
+        cpu_type: PPC # x86, PPC, APL
     AS4625-54P:
         platform:
             sonic: True
