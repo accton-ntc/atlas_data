@@ -58,6 +58,9 @@ model: # Please sort by model name when adding model.
         port_count: 54
         speed: 1G
         cpu_type: PPC # x86, PPC, APL
+        uboot:
+            into_prompt: Hit the enter key to stop autoboot
+            password: '\r'
     AS4625-54P:
         platform:
             sonic: True
