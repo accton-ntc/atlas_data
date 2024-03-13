@@ -411,6 +411,16 @@ model: # Please sort by model name when adding model.
         port_count: 28
         speed: 1G
         cpu_type: null # x86, PPC, APL
+    ECS4110-52T:
+        platform:
+            sonic: False
+            onie: False
+            simba: True
+            anos: False
+        baud_rate: 115200
+        port_count: 52
+        speed: 1G
+        cpu_type: null # x86, PPC, APL
     ECS4120-28F:
         platform:
             sonic: False
