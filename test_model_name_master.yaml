@@ -301,7 +301,17 @@ model: # Please sort by model name when adding model.
         baud_rate: 115200
         port_count: 64
         speed: 800G
-        cpu_type: x86 # x86, PPC, APL  
+        cpu_type: x86 # x86, PPC, APL
+    AS9817-64D:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 64
+        speed: 800G
+        cpu_type: x86 # x86, PPC, APL 
     AZ3380-52X:
         platform:
             sonic: True
