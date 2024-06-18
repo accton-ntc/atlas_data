@@ -282,6 +282,16 @@ model: # Please sort by model name when adding model.
         port_count: 64
         speed: 400G
         cpu_type: x86 # x86, PPC, APL
+    AS9817-SCM-64D:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+        baud_rate: 115200
+        port_count: 64
+        speed: 800G
+        cpu_type: x86 # x86, PPC, APL      
     AS9817-SCM-64O:
         platform:
             sonic: True
