@@ -251,7 +251,7 @@ model: # Please sort by model name when adding model.
         baud_rate: 115200
         port_count: 32
         speed: 400G
-        cpu_type: APL # x86, PPC, APL
+        cpu_type: x86 # x86, PPC, APL
     AS9516-32D:
         platform:
             sonic: True
