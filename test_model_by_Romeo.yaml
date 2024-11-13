@@ -1,595 +1,608 @@
-model: # Please sort by model name when adding model.
-    ASCvOLT16:
+model:
+    AS3510-28T:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
-        baud_rate: 115200
-        port_count: 16
-        speed: 10G
-        cpu_type: x86 # x86, PPC, APL
+            sonic: false
+            onie: false
+            simba: true
+            anos: false
+        baud_rate: 9600
+        port_count: 28
+        speed: 400G
+        cpu_type: x86
+        uboot:
+            into_prompt: null
+            password: null
+        is_active: true
+        send_expect_delay_time: null
     AS4224-52P:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 52
         speed: 10G
-        cpu_type: PPC # x86, PPC, APL
+        cpu_type: PowerPC
         uboot:
             into_prompt: Type password to STOP autoboot
             password: '@wa23'
     AS4224-52T:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 52
         speed: 10G
-        cpu_type: PPC # x86, PPC, APL
+        cpu_type: PowerPC
         uboot:
             into_prompt: Type password to STOP autoboot
             password: '@wa23'
     AS4564-26P:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 26
         speed: 10G
-        cpu_type: PPC # x86, PPC, APL
+        cpu_type: PowerPC
         uboot:
             into_prompt: Type password to STOP autoboot
             password: '@wa23'
     AS4610-54T:
         platform:
-            sonic: False
-            onie: True
-            simba: False
-            anos: False
+            sonic: false
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 54
         speed: 1G
-        cpu_type: PPC # x86, PPC, APL
+        cpu_type: PowerPC
         uboot:
             into_prompt: Hit the enter key to stop autoboot
-            password: '\r'
+            password: \r
     AS4625-54P:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 54
         speed: 10G
-        cpu_type: x86 # x86, PPC, APL
+        cpu_type: x86
     AS4630-54NPE:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 54
         speed: 10G
-        cpu_type: x86 # x86, PPC, APL
+        cpu_type: x86
     AS4630-54PE:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 54
         speed: 10G
-        cpu_type: x86 # x86, PPC, APL
+        cpu_type: x86
     AS4630-54TE:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: True
+            sonic: true
+            onie: true
+            simba: false
+            anos: true
         baud_rate: 115200
         port_count: 54
         speed: 1G
-        cpu_type: x86 # x86, PPC, APL
+        cpu_type: x86
     AS5812-54X:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 54
         speed: 10G
-        cpu_type: x86 # x86, PPC, APL
+        cpu_type: x86
         send_expect_delay_time: 0.3
     AS5835-54T:
         platform:
-            sonic: True
-            onie: True
-            simba: True
-            anos: True
+            sonic: true
+            onie: true
+            simba: true
+            anos: true
         baud_rate: 115200
         port_count: 54
         speed: 10G
-        cpu_type: x86 # x86, PPC, APL
+        cpu_type: x86
         send_expec_delay_time: 0.3
     AS5835-54X:
         platform:
-            sonic: True
-            onie: True
-            simba: True
-            anos: True
+            sonic: true
+            onie: true
+            simba: true
+            anos: true
         baud_rate: 115200
         port_count: 54
         speed: 10G
-        cpu_type: x86 # x86, PPC, APL
+        cpu_type: x86
     AS5916-54XKS:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 54
         speed: 10G
-        cpu_type: x86 # x86, PPC, APL
+        cpu_type: x86
     AS5916-54XL:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 54
         speed: 10G
-        cpu_type: x86 # x86, PPC, APL
+        cpu_type: x86
     AS7326-56X:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: True
+            sonic: true
+            onie: true
+            simba: false
+            anos: true
         baud_rate: 115200
         port_count: 56
         speed: 25G
-        cpu_type: x86 # x86, PPC, APL
+        cpu_type: x86
     AS7712-32X:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 32
         speed: 100G
-        cpu_type: x86 # x86, PPC, APL
+        cpu_type: x86
     AS7726-32X:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: True
+            sonic: true
+            onie: true
+            simba: false
+            anos: true
         baud_rate: 115200
         port_count: 32
         speed: 100G
-        cpu_type: x86 # x86, PPC, APL
+        cpu_type: x86
     AS7816-64X:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 32
         speed: 100G
-        cpu_type: x86 # x86, PPC, APL
+        cpu_type: x86
     AS8000:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 9600
         port_count: 32
         speed: 100G
-        cpu_type: x86 # x86, PPC, APL
+        cpu_type: x86
     AS8060-32X:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 32
         speed: 400G
-        cpu_type: APL # x86, PPC, APL
+        cpu_type: APL
         uboot:
             into_prompt: Type 123<ENTER> to STOP autoboot
             password: '123'
     AS8064-32X:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 32
         speed: 400G
-        cpu_type: APL # x86, PPC, APL
+        cpu_type: APL
         uboot:
             into_prompt: Type 123<ENTER> to STOP autoboot
             password: '123'
     AS8460-32X:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 32
         speed: 400G
-        cpu_type: APL # x86, PPC, APL
+        cpu_type: APL
         uboot:
             into_prompt: Type 123<ENTER> to STOP autoboot
             password: '123'
     AS9286-32D:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 32
         speed: 400G
-        cpu_type: x86 # x86, PPC, APL
+        cpu_type: x86
     AS9516-32D:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 9600
         port_count: 32
         speed: 400G
-        cpu_type: x86 # x86, PPC, APL
+        cpu_type: x86
     AS9716-32D:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 32
         speed: 400G
-        cpu_type: x86 # x86, PPC, APL
+        cpu_type: x86
     AS9726-32D:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 32
         speed: 400G
-        cpu_type: x86 # x86, PPC, APL
+        cpu_type: x86
     AS9736-64D:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 64
         speed: 400G
-        cpu_type: x86 # x86, PPC, APL
-    AS9817-SCM-64D:
-        platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
-        baud_rate: 115200
-        port_count: 64
-        speed: 800G
-        cpu_type: x86 # x86, PPC, APL      
-    AS9817-SCM-64O:
-        platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
-        baud_rate: 115200
-        port_count: 64
-        speed: 800G
-        cpu_type: x86 # x86, PPC, APL  
-    AS9817-64O:
-        platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
-        baud_rate: 115200
-        port_count: 64
-        speed: 800G
-        cpu_type: x86 # x86, PPC, APL
+        cpu_type: x86
     AS9817-64D:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 64
         speed: 800G
-        cpu_type: x86 # x86, PPC, APL 
+        cpu_type: x86
+    AS9817-64O:
+        platform:
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
+        baud_rate: 115200
+        port_count: 64
+        speed: 800G
+        cpu_type: x86
+    AS9817-SCM-64D:
+        platform:
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
+        baud_rate: 115200
+        port_count: 64
+        speed: 800G
+        cpu_type: x86
+    AS9817-SCM-64O:
+        platform:
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
+        baud_rate: 115200
+        port_count: 64
+        speed: 800G
+        cpu_type: x86
     AS9947-36XKB:
         platform:
-            sonic: False
-            onie: True
-            simba: False
-            anos: False
+            sonic: false
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 36
         speed: 400G
-        cpu_type: x86 # x86, PPC, APL
+        cpu_type: x86
+    ASCvOLT16:
+        platform:
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
+        baud_rate: 115200
+        port_count: 16
+        speed: 10G
+        cpu_type: x86
     AZ3380-52X:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 52
         speed: 10G
-        cpu_type: APL # x86, PPC, APL
+        cpu_type: APL
         uboot:
             into_prompt: Type 123<ENTER> to STOP autoboot
             password: '123'
     AZ4444-52X:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 52
         speed: 400G
-        cpu_type: APL # x86, PPC, APL
+        cpu_type: APL
         uboot:
             into_prompt: Type 123<ENTER> to STOP autoboot
             password: '123'
     AZ8564-32X:
         platform:
-            sonic: False
-            onie: True
-            simba: False
-            anos: False
+            sonic: false
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 32
         speed: 400G
-        cpu_type: APL # x86, PPC, APL
+        cpu_type: APL
         uboot:
             into_prompt: Type 123<ENTER> to STOP autoboot
             password: '123'
     CA120-32X:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 32
         speed: 10G
-        cpu_type: x86 # x86, PPC, APL
+        cpu_type: x86
     DCS6300-48X6C:
         platform:
-            sonic: False
-            onie: True
-            simba: False
-            anos: True
+            sonic: false
+            onie: true
+            simba: false
+            anos: true
         baud_rate: 115200
         port_count: 54
         speed: 10G
-        cpu_type: x86 # x86, PPC, APL
+        cpu_type: x86
     DCS6500-48Z8C:
         platform:
-            sonic: False
-            onie: True
-            simba: False
-            anos: True
+            sonic: false
+            onie: true
+            simba: false
+            anos: true
         baud_rate: 115200
         port_count: 56
         speed: 25G
-        cpu_type: x86 # x86, PPC, APL
+        cpu_type: x86
     ECS2100-28PPv2:
         platform:
-            sonic: False
-            onie: False
-            simba: False
-            anos: False
+            sonic: false
+            onie: false
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 28
         speed: 1G
-        cpu_type: null # x86, PPC, APL
+        cpu_type: null
     ECS2100-52T:
         platform:
-            sonic: False
-            onie: False
-            simba: True
-            anos: False
+            sonic: false
+            onie: false
+            simba: true
+            anos: false
         baud_rate: 115200
         port_count: 52
         speed: 1G
-        cpu_type: null # x86, PPC, APL
-    ECS4100-12T:
-        platform:
-            sonic: False
-            onie: False
-            simba: True
-            anos: False
-        baud_rate: 115200
-        port_count: 12
-        speed: 1G
-        cpu_type: null # x86, PPC, APL
+        cpu_type: null
     ECS4100-12PH:
         platform:
-            sonic: False
-            onie: False
-            simba: True
-            anos: False
+            sonic: false
+            onie: false
+            simba: true
+            anos: false
         baud_rate: 115200
         port_count: 12
         speed: 1G
-        cpu_type: null # x86, PPC, APL
+        cpu_type: null
+    ECS4100-12T:
+        platform:
+            sonic: false
+            onie: false
+            simba: true
+            anos: false
+        baud_rate: 115200
+        port_count: 12
+        speed: 1G
+        cpu_type: null
     ECS4100-28T:
         platform:
-            sonic: False
-            onie: False
-            simba: False
-            anos: False
+            sonic: false
+            onie: false
+            simba: false
+            anos: false
         baud_rate: 115200
         port_count: 28
         speed: 1G
-        cpu_type: null # x86, PPC, APL
+        cpu_type: null
     ECS4110-28T:
         platform:
-            sonic: False
-            onie: False
-            simba: True
-            anos: False
+            sonic: false
+            onie: false
+            simba: true
+            anos: false
         baud_rate: 115200
         port_count: 28
         speed: 1G
-        cpu_type: null # x86, PPC, APL
+        cpu_type: null
     ECS4110-52T:
         platform:
-            sonic: False
-            onie: False
-            simba: True
-            anos: False
+            sonic: false
+            onie: false
+            simba: true
+            anos: false
         baud_rate: 115200
         port_count: 52
         speed: 1G
-        cpu_type: null # x86, PPC, APL
+        cpu_type: null
     ECS4120-28F:
         platform:
-            sonic: False
-            onie: False
-            simba: True
-            anos: False
+            sonic: false
+            onie: false
+            simba: true
+            anos: false
         baud_rate: 115200
         port_count: 28
         speed: 10G
-        cpu_type: null # x86, PPC, APL
+        cpu_type: null
     ECS4125-10P:
         platform:
-            sonic: False
-            onie: False
-            simba: True
-            anos: False
+            sonic: false
+            onie: false
+            simba: true
+            anos: false
         baud_rate: 115200
         port_count: 12
         speed: 1G
-        cpu_type: null # x86, PPC, APL
+        cpu_type: null
     ECS4130-12PD:
         platform:
-            sonic: False
-            onie: False
-            simba: True
-            anos: False
+            sonic: false
+            onie: false
+            simba: true
+            anos: false
         baud_rate: 115200
         port_count: 12
         speed: 1G
-        cpu_type: null # x86, PPC, APL
+        cpu_type: null
     ECS4130-28T:
         platform:
-            sonic: False
-            onie: False
-            simba: True
-            anos: False
+            sonic: false
+            onie: false
+            simba: true
+            anos: false
         baud_rate: 115200
         port_count: 12
         speed: 1G
-        cpu_type: null # x86, PPC, APL
+        cpu_type: null
     ECS4150-28T:
         platform:
-            sonic: False
-            onie: False
-            simba: True
-            anos: False
+            sonic: false
+            onie: false
+            simba: true
+            anos: false
         baud_rate: 115200
         port_count: 28
         speed: 1G
-        cpu_type: null # x86, PPC, APL
+        cpu_type: null
     ECS4610-50T:
         platform:
-            sonic: False
-            onie: False
-            simba: True
-            anos: False
+            sonic: false
+            onie: false
+            simba: true
+            anos: false
         baud_rate: 115200
         port_count: 50
         speed: 1G
-        cpu_type: null # x86, PPC, APL
+        cpu_type: null
     ECS5520-18T:
         platform:
-            sonic: False
-            onie: False
-            simba: True
-            anos: False
+            sonic: false
+            onie: false
+            simba: true
+            anos: false
         baud_rate: 115200
         port_count: 18
         speed: 10G
-        cpu_type: null # x86, PPC, APL
+        cpu_type: null
     ECS5520-18X:
         platform:
-            sonic: False
-            onie: False
-            simba: True
-            anos: False
+            sonic: false
+            onie: false
+            simba: true
+            anos: false
         baud_rate: 115200
         port_count: 18
         speed: 10G
-        cpu_type: null # x86, PPC, APL
+        cpu_type: null
     Wedge100BF-32QS:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 9600
         port_count: 32
         speed: 100G
-        cpu_type: x86 # x86, PPC, APL
+        cpu_type: x86
     Wedge100BF-32X:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 9600
         port_count: 32
         speed: 100G
-        cpu_type: x86 # x86, PPC, APL
+        cpu_type: x86
     Wedge100BF-65X:
         platform:
-            sonic: True
-            onie: True
-            simba: False
-            anos: False
+            sonic: true
+            onie: true
+            simba: false
+            anos: false
         baud_rate: 9600
         port_count: 65
         speed: 100G
-        cpu_type: x86 # x86, PPC, APL
-
-# 新增的內容
+        cpu_type: x86
