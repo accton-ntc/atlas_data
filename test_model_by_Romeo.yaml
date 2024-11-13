@@ -591,3 +591,5 @@ model: # Please sort by model name when adding model.
         port_count: 65
         speed: 100G
         cpu_type: x86 # x86, PPC, APL
+
+# 新增的內容
