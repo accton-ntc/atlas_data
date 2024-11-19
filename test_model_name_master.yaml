@@ -591,3 +591,13 @@ model: # Please sort by model name when adding model.
         port_count: 65
         speed: 100G
         cpu_type: x86 # x86, PPC, APL
+    Testmodel-32X:
+        platform:
+            sonic: True
+            onie: False
+            simba: False
+            anos: True
+        baud_rate: 115200
+        port_count: 32
+        speed: 100G
+        cpu_type: x86 # x86, PPC, APL
