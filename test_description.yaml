@@ -67,3 +67,6 @@ anos:
     - ANOS_SelectiveQinQ
   T3:
     - ANOS_BGP
+iot:
+  T1:
+    - DCB_IOT
