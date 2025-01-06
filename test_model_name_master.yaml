@@ -408,7 +408,19 @@ model:  # Please sort by model name when adding model.
         baud_rate: 115200
         port_count: 64
         speed: 800G
-        cpu_type: x86  # x86 / PPC / APL 
+        cpu_type: x86  # x86 / PPC / APL
+    AS9817-32D:
+        platform:
+            sonic: True
+            onie: True
+            simba: False
+            anos: False
+            iot: True
+            uboot: False
+        baud_rate: 115200
+        port_count: 32
+        speed: 800G
+        cpu_type: x86  # x86 / PPC / APL
     AS9947-36XKB:
         platform:
             sonic: False
